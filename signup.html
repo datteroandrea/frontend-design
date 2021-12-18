@@ -34,13 +34,11 @@
             let passwordLabels = document.getElementsByName("passwordCheck");
             let passwordInputs = document.getElementsByName("passwordInput");
             if(passwordInputs[0].value == passwordInputs[1].value && passwordInputs[0].value.length >= 8) {
-                console.log("check");
                 passwordLabels.forEach((label)=>{
                     label.className = "fa fa-check fa-fw correctPassword";
                 });
             } else {
                 passwordLabels.forEach((label)=>{
-                    console.log("times");
                     label.className = "fa fa-times fa-fw wrongPassword";
                 });
             }
