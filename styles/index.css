@@ -1,0 +1,73 @@
+
+h1 {
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  color: black; /*white*/
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  font-size: 24px;
+  color: #4E4E50;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  color: #08356B; /*white*/
+}
+
+body {
+  background-color: white; /* #1A1A1D*/
+}
+
+button {
+  margin-top: 3vh;
+}
+
+.label {
+  color: #4E4E50;
+  float: left;
+}
+
+.btn {
+  border-radius: 2px;
+  text-transform: capitalize;
+  font-size: 15px;
+  padding: 10px 19px;
+  cursor: pointer;
+  width: 100%;
+}
+
+@media screen and (max-width: 269px) {
+  p {
+    display: none;
+  }
+  form {
+    width: 200px;
+  }
+}
+
+@media screen and (min-width: 270px) and (max-width: 549px) {
+  form {
+    width: 250px;
+  }
+}
+
+@media screen and (min-width: 550px) and (max-width: 799px) {
+  form {
+    width: 400px;
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1099px) {
+  form {
+    width: 500px;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  form {
+    width: 35%;
+  }
+}
