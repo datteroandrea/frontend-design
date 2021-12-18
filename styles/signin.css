@@ -18,8 +18,6 @@
 form {
     justify-content: center;
     margin: 0 auto;
-    margin-top: 10vh;
-    width: 30%;
 }
 
 .loginform {
@@ -43,6 +41,7 @@ form {
 .googlebutton {
     background-color: white;
     border: 1px solid black;
+    width: 100%;
 }
 
 .googlebutton:hover {
@@ -57,23 +56,4 @@ form {
     font-family: 'Poppins';
     text-decoration: none;
     font-size: 15px;
-}
-
-.or-container {
-    align-items: center;
-    color: #ccc;
-    display: flex;
-    margin: 25px 0
-}
-
-.line-separator {
-    background-color: #ccc;
-    flex-grow: 5;
-    height: 1px
-}
-
-.or-label {
-    flex-grow: 1;
-    margin: 0 15px;
-    text-align: center
 }
