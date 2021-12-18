@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+}
 
 h1 {
   font-family: 'Arial', sans-serif;
@@ -32,17 +36,53 @@ button {
 
 .btn {
   border-radius: 2px;
-  text-transform: capitalize;
   font-size: 15px;
   padding: 10px 19px;
   cursor: pointer;
-  width: 100%;
+}
+
+.or-container {
+  align-items: center;
+  color: #ccc;
+  display: flex;
+  margin: 25px 0
+}
+
+.line-separator {
+  background-color: #ccc;
+  flex-grow: 5;
+  height: 1px
+}
+
+.or-label {
+  flex-grow: 1;
+  margin: 0 15px;
+  text-align: center
+}
+
+.pages {
+  float: left;
+}
+
+.authentication {
+  float: right;
+}
+
+.signup-button {
+  border-radius: 10px;
+}
+
+.signup-button:hover {
+  background-color: #05386B;
+  color: white!important;
+}
+
+.content {
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 @media screen and (max-width: 269px) {
-  p {
-    display: none;
-  }
   form {
     width: 200px;
   }
